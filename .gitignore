@@ -1,7 +1,4 @@
-.Rproj.user
-.Rhistory
-.RData
-.Ruserdata
 public
 static/figures
 blogdown
+.DS_Store
