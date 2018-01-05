@@ -1,0 +1,62 @@
+baseurl: "https:"
+languageCode: "en-us"
+title: "Billy Fung"
+theme: "hugo-ivy"
+googleAnalytics: "UA-1988641-2"
+disqusShortname: ""
+ignoreFiles: ["\\.Rmd$", "_files$", "_cache$"]
+hasCJKLanguage: true
+enableEmoji: true
+footnotereturnlinkcontents: "↩"
+rssLimit: 30
+
+permalinks:
+  blog: "/blog/:year/:month/:slug/"
+
+menu:
+  main:
+    - name: "About"
+      url: "/about/"
+      weight: 1
+    - name: "Blog"
+      url: "/blog/"
+      weight: 2
+    - name: "Projects"
+      url: "/projects/"
+      weight: 3
+  blog:
+    - name: "Home"
+      url: "/"
+      weight: 1
+    - name: "About"
+      url: "/about/"
+      weight: 2
+    - name: "Blog"
+      url: "/blog/"
+      weight: 3
+
+params:
+  description: "Personal website of Billy Fung"
+  footer: "&copy; [Billy Fung](/) 2018 | [Github](https://github.com/billyfung) | [Twitter](https://twitter.com/billyfung)"
+  disqusURL: "e"
+  customJS: ["js/center-img.js", "js/right-quote.js", "js/no-highlight.js", "js/fix-footnote.js", "js/math-code.js"]
+
+  # options for highlight.js (version, additional languages, and theme)
+  highlightjsVersion: "9.12.0"
+  highlightjsCDN: "//cdn.bootcss.com"
+  highlightjsLang: ["r", "yaml", "tex"]
+  highlightjsTheme: "github"
+
+  logo:
+    blog:
+      img: "/images/logo.png"
+      url: "/"
+      alt: "Billy Fung"
+      tag: ""
+
+  author:
+    blog: "Billy Fung"
+
+blackfriday:
+    extensionsmask: ["noIntraEmphasis"]
+    fractions: false
