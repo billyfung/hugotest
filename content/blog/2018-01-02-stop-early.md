@@ -23,3 +23,6 @@ sqrt2 = function(x) {
 }
 ```
 
+![this is an image][1]
+
+[1]: /figures/blobs.png
