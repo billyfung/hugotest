@@ -1,27 +1,9 @@
 ---
-title: new year new hugo
-subtitle: testing this out
-date: '2018-01-01'
-slug: hny
+title: Gravity Gradient Stabilised Satellite
+subtitle: Processing simulation
+date: '2015-10-06'
+slug: satellite-simulation
 ---
-
-Testing out this template and format
-
-```python
-for x in 'hello':
-  print(x)
-
-```
-
-R
-```R
-sqrt2 = function(x) {
-  if (x < 0) {
-    stop("x must be non-negative")
-  }
-  sqrt(x)
-}
-```
 
 # Physics Simulation using Java
 
